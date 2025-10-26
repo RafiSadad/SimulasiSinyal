@@ -14,7 +14,7 @@ BACKEND_URL = "http://127.0.0.1:8080/simulate"
 class SignalSimulatorApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Simulasi Kombinasi Sinyal (Rust + Qt)")
+        self.setWindowTitle("Simulasi Kombinasi Sinyal (Rust + Qt) Kelompok 6 SPS")
         self.setGeometry(100, 100, 1200, 800)
         
         # Timer untuk simulasi real-time 
