@@ -1,0 +1,41 @@
+# =================================================================
+# File .gitignore ini harus ada di folder root proyek Anda.
+# =================================================================
+
+# --- 1. Aturan Khusus RUST (di dalam 'signal_backend') ---
+
+# Abaikan semua hasil build, cache, dan dependensi yang dikompilasi
+# Ini adalah folder terpenting untuk diabaikan dalam proyek Rust
+signal_backend/target/
+
+# Abaikan log error Rust
+signal_backend/rust-toolchain-defs.json
+signal_backend/.rustc_info.json
+
+
+# --- 2. Aturan Khusus PYTHON (di dalam 'signal_frontend') ---
+
+# Abaikan folder virtual environment
+signal_frontend/venv/
+signal_frontend/.venv/
+
+# Abaikan file bytecode Python yang di-cache
+signal_frontend/__pycache__/
+signal_frontend/**/*.pyc
+signal_frontend/*.pyc
+
+
+# --- 3. Aturan Umum (OS & IDE) ---
+# Mengabaikan file-file ini di mana saja dalam proyek
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# JetBrains (IntelliJ, PyCharm, RustRover)
+.idea/
