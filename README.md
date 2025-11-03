@@ -1,6 +1,9 @@
 # Simulasi Kombinasi Sinyal (Rust + Qt)
 
-Dibuat oleh Rafi Sadad Ar-Rabbani 2042241105
+Dibuat oleh 
+Rafi Sadad Ar-Rabbani 2042241105
+Reksa Putra A 2042241126
+Luthfiana Alzenayu Gyonina 2042241117
 
 Ini adalah proyek mata kuliah Sistem Pengolahan Sinyal yang mengimplementasikan simulasi kombinasi sinyal (Penjumlahan, Pengurangan, Perkalian) secara real-time.
 
